@@ -1,0 +1,228 @@
+/* BRIGHT COLORS - Easy to see! */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background - light blue */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f3ff;  /* Light blue background */
+    padding: 20px;
+}
+
+/* Header - bright orange */
+header {
+    background-color: #ff6b35;  /* Bright orange */
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Navigation - bright teal */
+nav {
+    background-color: #2ec4b6;  /* Bright teal */
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Navigation links - white */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #1fa89b;  /* Darker teal */
+    display: inline-block;
+}
+
+/* Hover effect - bright yellow */
+nav a:hover {
+    background-color: #ffd166;  /* Bright yellow */
+    color: #333;
+    transform: scale(1.05);
+}
+
+/* Main content - white card */
+main {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    min-height: 450px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    border-left: 5px solid #ff6b35;  /* Orange accent */
+}
+
+/* Headings in main */
+main h2 {
+    color: #ff6b35;  /* Orange */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #2ec4b6;  /* Teal underline */
+    padding-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #2ec4b6;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels - bright purple */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #9c89b8;  /* Purple */
+    font-size: 16px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #2ec4b6;  /* Teal border */
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Input focus effect */
+input:focus, select:focus {
+    border-color: #ff6b35;  /* Orange when clicked */
+    outline: none;
+    box-shadow: 0 0 8px #ff6b35;
+}
+
+/* Submit button - bright green */
+input[type="submit"] {
+    background-color: #06d6a0;  /* Bright green */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+/* Submit button hover - darker green */
+input[type="submit"]:hover {
+    background-color: #05b585;  /* Darker green */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Error messages - bright red */
+.error {
+    color: #e71d36;  /* Bright red */
+    background-color: #ffeaee;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 5px solid #e71d36;
+    font-weight: bold;
+}
+
+/* Success messages - bright green */
+.success {
+    color: #06d6a0;  /* Bright green */
+    background-color: #e6fcf5;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 5px solid #06d6a0;
+    font-weight: bold;
+}
+
+/* Book cards for dashboard */
+.book-card {
+    background-color: #f8f9fa;
+    border: 2px solid #2ec4b6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.book-card:hover {
+    transform: translateX(10px);
+    border-color: #ff6b35;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book-card h3 {
+    color: #ff6b35;
+    margin-bottom: 10px;
+}
+
+/* Profile image */
+.profile-image {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ff6b35;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer - purple */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #9c89b8;  /* Purple */
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Links in main */
+main a {
+    color: #ff6b35;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #2ec4b6;
+    text-decoration: underline;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #2ec4b6;
+    border-radius: 5px;
+}
